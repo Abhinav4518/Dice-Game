@@ -9,7 +9,7 @@ var n1=Math.random();
 n1=(n1*6)+1;
 var randomNumber1=Math.floor(n1);
 var randomDice1="dice"+randomNumber1+".png";
-var randomImage1="images/"+randomDice1;
+var randomImage1=randomDice1;
 var image2=document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomImage1);
 if(randomNumber>randomNumber1){
